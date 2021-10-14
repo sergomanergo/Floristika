@@ -1,0 +1,86 @@
+{
+  "authStatus": {
+    "resultId": 201,
+    "msgValue": "successful"
+  },
+  "baseData": {
+    "ItemArray": [
+      {
+        "flower1CId": "flower1",
+        "flowerName": "flowerName1",
+        "flowerArticle": "flowerArticle1",
+        "edIzmName": "edIzmName1",
+        "edIzmType": 1,
+        "isLockEd": 2,
+        "isStocked": 3
+      },
+      {
+        "flower1CId": "flower2",
+        "flowerName": "flowerName2",
+        "flowerArticle": "flowerArticle2",
+        "edIzmName": "edIzmName2",
+        "edIzmType": 2,
+        "isLockEd": 2,
+        "isStocked": 3
+      }
+    ],
+    "CategoriesArray": [
+      {
+        "category1CId": "category1",
+        "categoryName": "category1"
+      },
+      {
+        "category1CId": "category2",
+        "categoryName": "category2"
+      }
+    ],
+    "ItemsCategoriesArray": [
+      {
+        "category1CId": "category1",
+        "flower1CId": "flower1"
+      },
+      {
+        "category1CId": "category2",
+        "flower1CId": "flower2"
+      }
+    ],
+    "StoragesArray": [
+      {
+        "storage1CId": "storage1",
+        "storageName": "storage1"
+      },
+      {
+        "storage1CId": "storage2",
+        "storageName": "storage2"
+      }
+    ],
+    "StockArray": [
+      {
+        "storage1CId": "storage1",
+        "flower1CId": "flower1",
+        "stockItems": 19,
+        "inStock": 3
+      },
+      {
+        "storage1CId": "storage2",
+        "flower1CId": "flower2",
+        "stockItems": 15,
+        "inStock": 12
+      }
+    ],
+    "ItemsPricesArray": [
+      {
+        "storage1CId": "storage1",
+        "flower1CId": "flower1",
+        "regularPrice": 100.0,
+        "minPrice": 80
+      },
+      {
+        "storage1CId": "storage2",
+        "flower1CId": "flower2",
+        "regularPrice": 500.0,
+        "minPrice": 440
+      }
+    ]
+  }
+}
